@@ -3,7 +3,7 @@
 
 FROM python:3.7-slim
 LABEL version="1.0"
-LABEL maintainer="andresionek91"
+LABEL maintainer="juanarmond81"
 
 # Never prompts the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive

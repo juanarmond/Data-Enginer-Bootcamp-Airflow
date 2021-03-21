@@ -78,3 +78,4 @@ def update_image():
     tag_and_push_to_ecr(image, IMAGE_TAG)
     hash_tag = generate_hash(16)
     tag_and_push_to_ecr(image, hash_tag)
+    
